@@ -14,7 +14,7 @@ import { Todo } from "../types/todo";
 import {
   CopilotKit,
   useCopilotAction,
-  useMakeCopilotReadable,
+  useCopilotReadable,
 } from "@copilotkit/react-core";
 import { CopilotPopup } from "@copilotkit/react-ui";
 import "@copilotkit/react-ui/styles.css";
@@ -63,12 +63,13 @@ const TodoList: React.FC = () => {
 
   /**
    *
-   * 4) make the users todo list available with useMakeCopilotReadable
+   * 4) make the users todo list available with useCopilotReadable
    *
    **/
-  useMakeCopilotReadable(
-    "This is the user's todo list: " + JSON.stringify(todos)
-  );
+  useCopilotReadable({
+    description: "The user's todo list.",
+    value: todos,
+  });
 
   /**
    *
