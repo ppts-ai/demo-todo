@@ -4,7 +4,7 @@ This is a demo that showcases using CopilotKit to build a simple Todo app.
 
 To deploy with Vercel, click the button below:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCopilotKit%2Fexample_app-todo&env=OPENAI_API_KEY&project-name=copilotkit-todo-demo&repository-name=copilotkit-todo-demo)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCopilotKit%2Ftodo-demo&env=NEXT_PUBLIC_COPILOTKIT_API_KEY&project-name=copilotkit-todo-demo&repository-name=copilotkit-todo-demo)
 
 ## Add your OpenAI API key
 

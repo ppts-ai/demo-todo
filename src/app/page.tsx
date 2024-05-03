@@ -31,7 +31,11 @@ export default function Home() {
        *
        **/}
 
-      <CopilotKit url="/api/copilotkit/">
+      <CopilotKit
+        publicApiKey={process.env.NEXT_PUBLIC_COPILOTKIT_API_KEY}
+        // Alternatively, you can use runtimeUrl to host your own CopilotKit Runtime
+        // runtimeUrl="/api/copilotkit"
+      >
         <TodoList />
 
         {/**
