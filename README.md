@@ -18,6 +18,12 @@ To deploy with Vercel, click the button below:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCopilotKit%2Fdemo-todo&env=NEXT_PUBLIC_COPILOT_CLOUD_API_KEY&project-name=copilotkit-demo-todo&repository-name=copilotkit-demo-todo)
 
+## How to Build: a To-Do list app with an embedded AI copilot
+
+Learn how to create a To-Do list app with an embedded AI copilot. This tutorial will guide you through the process step-by-step.
+
+Tutorial: [How to Build: a To-Do list app with an embedded AI copilot](https://dev.to/copilotkit/how-to-build-an-ai-powered-to-do-list-nextjs-gpt4-copilotkit-20i4)
+
 ## Add your OpenAI API key
 
 Add your environment variables to `.env.local` in the root of the project.
