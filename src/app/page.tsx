@@ -33,6 +33,7 @@ export default function Home() {
 
       <CopilotKit
         publicApiKey={process.env.NEXT_PUBLIC_COPILOT_CLOUD_API_KEY}
+        runtimeUrl="https://api.cloud.stagingcopilotkit.ai/copilotkit/v1"
         // Alternatively, you can use runtimeUrl to host your own CopilotKit Runtime
         // runtimeUrl="/api/copilotkit"
       >
